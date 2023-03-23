@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfCustomFolderSettings xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema">
+	<!--<CustomFolderSettings FolderID="ExampleTXT_001">
+    <FolderEnabled>false</FolderEnabled>   
+    <FolderDescription>TEST FOLDER 1</FolderDescription>
+    <FolderFilter>*.TXT</FolderFilter>
+    <FolderPath>C:\FolderPath</FolderPath>監視資料夾路徑
+    <FolderIncludeSub>false</FolderIncludeSub>
+  </CustomFolderSettings>-->
+	<CustomFolderSettings FolderID="ExampleTXT_002">
+		<FolderEnabled>true</FolderEnabled>
+		<FolderDescription>TEST FOLDER 2</FolderDescription>
+		<FolderFilter>*.*</FolderFilter>
+		<FolderPath>C:\FolderPath</FolderPath>
+		<FolderIncludeSub>true</FolderIncludeSub>
+	</CustomFolderSettings>
+	<!--<CustomFolderSettings FolderID="ExampleTXT_003">
+    <FolderEnabled>false</FolderEnabled>
+    <FolderDescription>TEST FOLDER 3</FolderDescription>
+    <FolderFilter>*.TXT</FolderFilter>
+    <FolderPath>C:\FolderPath</FolderPath>
+    <FolderIncludeSub>false</FolderIncludeSub>
+  </CustomFolderSettings>-->
+</ArrayOfCustomFolderSettings>

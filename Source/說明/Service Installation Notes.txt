@@ -1,0 +1,15 @@
+Windows Service Project Rebuild
+
+以系統管理員執行命令提示字元
+
+cd C:\Windows\Microsoft.NET\Framework\v4.0.30319
+
+folder->bin->Debug找到.exe檔案
+
+InstallUtil.exe C:\FoldersMonitor\bin\Debug\xxx.exe 安裝Service
+InstallUtil.exe -u C:\FoldersMonitor\bin\Debug\xxx.exe 解除安裝Service
+
+找到服務UI：
+	Press Window key + R.
+	Type services.msc
+	Find Service.
